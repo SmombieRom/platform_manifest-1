@@ -7,11 +7,11 @@
            fetch="git://github.com/"
            review="https://review.slimroms.org/"/>
 
-  <default revision="refs/tags/android-6.0.1_r46"
+  <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SmombieRom/android_build" remote="github" revision="mm6.0" >
+  <project path="build" name="SlimRoms/android_build" remote="github" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -156,6 +156,7 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libnetfilter_conntrack" name="SlimRoms/android_external_libnetfilter_conntrack" remote="github" revision="mm6.0" />
   <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" remote="github" revision="mm6.0" />
   <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" remote="github" revision="mm6.0" />
   <project path="external/libnfnetlink" name="SlimRoms/android_external_libnfnetlink" remote="github" revision="mm6.0" />
@@ -292,6 +293,7 @@
   <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/slim" name="SlimRoms/frameworks_opt_slim" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
@@ -488,7 +490,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="SlimRoms/android_system_bt" remote="github" revision="mm6.0" />
-  <project path="system/core" name="Blackjubel/android_system_core" remote="github" revision="mm6.0" />
+  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="mm6.0" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="mm6.0" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
