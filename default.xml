@@ -7,7 +7,7 @@
            fetch="git://github.com/"
            review="https://review.slimroms.org/"/>
 
-  <default revision="refs/tags/android-6.0.1_r46"
+  <default revision="refs/tags/android-6.0.1_r52"
            remote="aosp"
            sync-j="4" />
 
@@ -399,7 +399,7 @@
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="mm6.0" />
   <project path="packages/apps/Dialer" name="SlimRoms/packages_apps_Dialer" remote="github" revision="mm6.0" />
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="mm6.0" />
-  <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
+  <project path="packages/apps/ExactCalculator" name="SlimRoms/packages_apps_ExactCalculator" remote="github" revision="mm6.0" />
   <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="mm6.0" />
   <project path="packages/apps/FMRadio" name="SlimRoms/packages_apps_FMRadio" remote="github" revision="mm6.0" />
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="mm6.0" />
